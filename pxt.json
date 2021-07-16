@@ -1,0 +1,26 @@
+{
+    "name": "hu",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "hu": "pkg:hu.json"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "hu.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.9",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
